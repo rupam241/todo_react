@@ -1,0 +1,32 @@
+.Item_list{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+   
+  
+}
+.Item_list p{
+    font-size: 18px;
+    margin-left: 1.2rem;
+}
+.items{
+    display: flex;
+    position: relative;
+
+    align-items: center;
+    
+
+
+    
+}
+
+.delete{
+    width: 20px;
+    position: absolute;
+
+    right: 10px;
+
+    top: 60%;
+    cursor: pointer;
+}
